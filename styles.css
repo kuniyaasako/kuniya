@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --color-navy: #10233f;
   --color-bluegray: #6f8498;
   --color-light: #f4f7fa;
@@ -55,6 +55,13 @@ img {
 .brand img {
   width: 112px;
   height: auto;
+}
+
+.brand span {
+  color: var(--color-navy);
+  font-size: 1.02rem;
+  font-weight: 900;
+  letter-spacing: 0;
 }
 
 .header-nav {
